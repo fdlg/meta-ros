@@ -3,7 +3,7 @@ HOMEPAGE = "http://pocoproject.org"
 LICENSE = "BSL-1.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=4267f48fc738f50380cbeeb76f95cebc"
 
-DEPENDS = "expat zlib libpcre openssl"
+DEPENDS = "expat zlib libpcre openssl sqlite3"
 
 SRC_URI = "https://github.com/pocoproject/poco/archive/poco-${PV}-release.tar.gz"
 SRC_URI[md5sum] = "4636d84055a434fde3a67396bf15924a"
